@@ -23,6 +23,17 @@
         "xmake ",
         "xmake ",
         "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake ",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
         "xmake run DarkWorldServer 0.0.0.0 8080 1"
     }
 }
