@@ -1,0 +1,19 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid black;">
+    </canvas>
+  </body>
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(0, 0, 150, 75);
+    var image = new Image();
+    image.onload = function() {
+      ctx.drawImage(image, 0, 0);
+    }
+    image.src = "./resources/images/ground_grass.png"
+  </script>
+</html>

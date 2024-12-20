@@ -1,0 +1,14 @@
+{
+    cmdlines = {
+        "xmake ",
+        "xmake run",
+        "xmake run",
+        "xmake run 0.0.0.0 8080 1",
+        "xmake run i.. 0.0.0.0 8080 1",
+        "xmake run -- 0.0.0.0 8080 1",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake run DarkWorldServer",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1",
+        "xmake run DarkWorldServer 0.0.0.0 8080 1"
+    }
+}
