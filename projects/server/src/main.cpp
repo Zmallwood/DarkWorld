@@ -99,6 +99,8 @@ public:
         if(ec)
             fail(ec, "read");
 
+        std::string s(boost::asio::buffer_cast<const char*>(buffer_.data()), buffer_.size());
+        std::cout << "Messages recieved: " << s << std::endl;
         // Echo the message
         ws_.text(ws_.got_text());
         ws_.async_write(
