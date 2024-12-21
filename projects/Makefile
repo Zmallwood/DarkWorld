@@ -2,7 +2,8 @@ all: build_server
 
 build_server:
 	cd server; \
-	xmake;
+	xmake; \
+	xmake project -k compile_commands;
 
 clean:
 	cd server; \
