@@ -1,6 +1,0 @@
-{
-    packages = {
-        "/home/andreas/.xmake/packages/n/nlohmann_json/v3.11.3/b4e38c4916bd42c39063f144e29030df",
-        "/home/andreas/.xmake/packages/b/boost/1.86.0/4a6030b84a3047e1bd19ef7b130b2be4"
-    }
-}
